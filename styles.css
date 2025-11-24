@@ -276,13 +276,19 @@ button {
     padding-bottom: 60px ;
 }
 
-.footer-section {
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 20px;
+    min-height: 120px;
     background-color: #071629;
-    padding: 80px;
+    padding: 0px 0px;
 }
 
-.footer-logo {
-    color:white;
-    font-weight: 600;
-    
+footer h4 {
+  margin: 10px;
+  align-self: flex-start;
+  color: white;
 }
